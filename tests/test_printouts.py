@@ -13,8 +13,8 @@ OUT1 = """\
 ┣━━ ❓ <unnamed> TProcessID
 ┣━━ 🌴 T (1000)
 ┃   ┣━━ 🍁 event Event
-┃   ┣━━ 🍁 TObject (group of fUniqueID:uint32_t, fBits:uint32_t)
-┃   ┣━━ 🍁 fBits uint32_t
+┃   ┣━━ 🍁 TObject (group of fUniqueID:uint32_t, fBits:uint8_t)
+┃   ┣━━ 🍁 fBits uint8_t
 ┃   ┣━━ 🍁 fUniqueID uint32_t
 ┃   ┣━━ 🍁 fClosestDistance unknown[]
 ┃   ┣━━ 🍁 fEventName char*
@@ -35,7 +35,7 @@ OUT1 = """\
 ┃   ┣━━ 🍁 fNvertex uint32_t
 ┃   ┣━━ 🍁 fTemperature float
 ┃   ┣━━ 🍁 fTracks TClonesArray*
-┃   ┣━━ 🍃 fTracks.fBits uint32_t[]
+┃   ┣━━ 🍃 fTracks.fBits uint8_t[]
 ┃   ┣━━ 🍃 fTracks.fBx Float16_t[]
 ┃   ┣━━ 🍃 fTracks.fBy Float16_t[]
 ┃   ┣━━ 🍃 fTracks.fCharge Double32_t[]
@@ -50,7 +50,7 @@ OUT1 = """\
 ┃   ┣━━ 🍃 fTracks.fRandom float[]
 ┃   ┣━━ 🍃 fTracks.fTArray[3] float[][3]
 ┃   ┣━━ 🍁 fTracks.fTriggerBits.fAllBits uint8_t[][]
-┃   ┣━━ 🍃 fTracks.fTriggerBits.fBits uint32_t[]
+┃   ┣━━ 🍃 fTracks.fTriggerBits.fBits uint8_t[]
 ┃   ┣━━ 🍃 fTracks.fTriggerBits.fNbits uint32_t[]
 ┃   ┣━━ 🍃 fTracks.fTriggerBits.fNbytes uint32_t[]
 ┃   ┣━━ 🍃 fTracks.fTriggerBits.fUniqueID uint32_t[]
@@ -64,8 +64,8 @@ OUT1 = """\
 ┃   ┣━━ 🍃 fTracks.fZfirst Float16_t[]
 ┃   ┣━━ 🍃 fTracks.fZlast Float16_t[]
 ┃   ┣━━ 🍁 fTriggerBits TBits
-┃   ┣━━ 🍁 fTriggerBits.TObject (group of fTriggerBits.fUniqueID:uint32_t, fTriggerBits.fBits:uint32_t)
-┃   ┣━━ 🍁 fTriggerBits.fBits uint32_t
+┃   ┣━━ 🍁 fTriggerBits.TObject (group of fTriggerBits.fUniqueID:uint32_t, fTriggerBits.fBits:uint8_t)
+┃   ┣━━ 🍁 fTriggerBits.fBits uint8_t
 ┃   ┣━━ 🍁 fTriggerBits.fUniqueID uint32_t
 ┃   ┣━━ 🍃 fTriggerBits.fAllBits uint8_t[]
 ┃   ┣━━ 🍁 fTriggerBits.fNbits uint32_t
