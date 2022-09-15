@@ -11,7 +11,7 @@
 [![Scikit-HEP][sk-badge]](https://scikit-hep.org/)
 [![Conda-Forge][conda-badge]][conda-link]
 
-uproot-browser is a [plotext](https://github.com/piccolomo/plotext) based command line library in which the command line interface is provided by [Click](https://github.com/pallets/click). It is powered by [Hist](https://github.com/scikit-hep/hist) and it's TUI is put together by [Textual](https://github.com/Textualize/textual). Its aim is to enable a user to browse and look inside a ROOT file, completely via the terminal. It takes its inspiration from the [ROOT object browser](https://root.cern/doc/master/classTRootBrowser.html).
+uproot-browser is a [plotext](https://github.com/piccolomo/plotext) based command line library in which a command line interface is provided by [Click](https://github.com/pallets/click). It is powered by [Hist](https://github.com/scikit-hep/hist) and it's TUI is put together by [Textual](https://github.com/Textualize/textual). Its aim is to enable a user to browse and look inside a ROOT file, completely via the terminal. It takes its inspiration from the [ROOT object browser](https://root.cern/doc/master/classTRootBrowser.html).
 
 ## Installation
 
